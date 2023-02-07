@@ -54,6 +54,11 @@ disableKinds = ["taxonomy", "term"]
     # { youtube = "https://youtube.com/username" },
    { email = { href = "feedback/", text = "Обратная связь", target = "_self" } },
   ]
+  
+[customLinks]
+  clinks = [ 
+    { vag = "https://linktothevag" }
+  ]
 
 [module]
   [module.hugoVersion]
